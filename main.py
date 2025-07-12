@@ -33,7 +33,8 @@ result = Runner.run_sync(agent, query, max_turns=2)
 
 
 print(result.final_output)
+print(result.to_input_list())
 # print(result.input)
-a = result.raw_responses
+# a = result.raw_responses
 
-print(a[0].usage.total_tokens)
+# print(a[0].usage.total_tokens)

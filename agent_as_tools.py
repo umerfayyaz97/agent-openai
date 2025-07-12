@@ -3,6 +3,9 @@ from openai import AsyncOpenAI
 import os
 from agents.model_settings import ModelSettings
 from dotenv import load_dotenv
+from agents import enable_verbose_stdout_logging
+
+enable_verbose_stdout_logging()
 
 load_dotenv()
 
